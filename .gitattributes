@@ -1,0 +1,14 @@
+# Código y documentación con finales de línea portables.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+.env.example text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Conservar byte a byte los datos y el HTML generado originales.
+*.graphml -text -whitespace
+*.html -text -whitespace
+*.png binary

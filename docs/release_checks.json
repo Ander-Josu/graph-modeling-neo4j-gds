@@ -1,0 +1,28 @@
+{
+  "files_reviewed": 51,
+  "total_bytes": 28982223,
+  "largest_file": "parte2_bilbao/bilbao_comparacion_final.html",
+  "files_over_50_mib": [],
+  "env_present_and_excluded": true,
+  "secret_findings": [],
+  "broken_markdown_links": [],
+  "images": {
+    "bilbao_graph_algorithms.png": {
+      "size": [
+        2400,
+        1350
+      ],
+      "bytes": 186706
+    },
+    "graph_analysis_results.png": {
+      "size": [
+        2400,
+        1350
+      ],
+      "bytes": 134727
+    }
+  },
+  "linkedin_characters": 1588,
+  "boolean_conversion_checks": "passed",
+  "neo4j_executed": false
+}

@@ -1,0 +1,150 @@
+{
+  "syntax_checked": 31,
+  "imports": [
+    "PIL",
+    "argparse",
+    "ast",
+    "contextlib",
+    "dotenv",
+    "folium",
+    "graphdatascience",
+    "hashlib",
+    "heapq",
+    "io",
+    "json",
+    "math",
+    "matplotlib",
+    "neo4j",
+    "networkx",
+    "os",
+    "pathlib",
+    "pyvis",
+    "re",
+    "requests",
+    "runpy",
+    "subprocess",
+    "time"
+  ],
+  "original": {
+    "nodes": 8746,
+    "edges": 16429,
+    "type": "MultiDiGraph"
+  },
+  "wcc": {
+    "components": 38,
+    "nodes": 8650,
+    "edges": 16311,
+    "removed_nodes": 96
+  },
+  "route": {
+    "distance_m": 1736.8082781455348,
+    "nodes": 24,
+    "edges": 23,
+    "osm_ids": [
+      "1132519581",
+      "525492073",
+      "12401262313",
+      "510585641",
+      "510585694",
+      "509306430",
+      "509306458",
+      "509306552",
+      "3138104604",
+      "5975525379",
+      "5975525380",
+      "5975525382",
+      "5975525383",
+      "5975525384",
+      "11834742189",
+      "11506921222",
+      "11506927438",
+      "1611159742",
+      "245939763",
+      "245939764",
+      "245939765",
+      "245940058",
+      "245939767",
+      "245939768"
+    ],
+    "astar_same_path": true
+  },
+  "simple_undirected": {
+    "nodes": 8650,
+    "edges": 12172
+  },
+  "mst": {
+    "nodes": 8650,
+    "edges": 8649,
+    "length_m": 647491.2488239537,
+    "is_tree": true
+  },
+  "saved_mst": {
+    "nodes": 8650,
+    "edges": 8649,
+    "length_m": 647491.2488239537,
+    "is_tree": true,
+    "same_nodes": true
+  },
+  "karate": {
+    "nodes": 34,
+    "edges": 78,
+    "top_degree": [
+      [
+        "34",
+        17
+      ],
+      [
+        "1",
+        16
+      ],
+      [
+        "33",
+        12
+      ],
+      [
+        "3",
+        10
+      ]
+    ]
+  },
+  "subgraph": {
+    "nodes": 70,
+    "edges": 107
+  },
+  "strategies": {
+    "Brute Force": {
+      "distance_m": 1736.8082781455348,
+      "explored": 2,
+      "route_nodes": 24,
+      "seconds": 0.023616100021172315,
+      "limit_reached": false
+    },
+    "Greedy": {
+      "distance_m": null,
+      "explored": 38,
+      "route_nodes": 0,
+      "seconds": 0.0003412999794818461,
+      "limit_reached": false
+    },
+    "Backtracking": {
+      "distance_m": 1736.8082781455348,
+      "explored": 826,
+      "route_nodes": 24,
+      "seconds": 0.0025631000171415508,
+      "limit_reached": false
+    },
+    "A* Heurístico": {
+      "distance_m": 1736.8082781455348,
+      "explored": 42,
+      "route_nodes": 24,
+      "seconds": 0.0005741000059060752,
+      "limit_reached": false
+    }
+  },
+  "sha256": {
+    "parte2_bilbao/bilbao-3974.graphml": "47f0ad049e3f8655f562271adf640b12d3f55c69155f49a5d81373d6a1f80511",
+    "parte2_bilbao/bilbao_kruskal_mst.graphml": "e50fe1039810d51fb0dcaa5724c0dd1b3bd02a26e70e12282163829a5955ce21",
+    "parte2_bilbao/subgrafo_comparacion.graphml": "3b86f9f5fd4072edddffa5fa250dcd790c2a805ac66e8555f665b50095a6de33",
+    "karate_club.graphml": "6831bcc971d8d41f85b9fed6471da201571a0a4f8134b36136775a1274cd80fc"
+  }
+}

@@ -1,0 +1,39 @@
+# Configuración privada
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+
+# Entornos y cachés
+.venv/
+.portfolio-venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.uv-cache/
+cache/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Exploración de Albania, conservada localmente fuera del portfolio
+albania/
+albania-ALB_graphml.zip
+inspeccionar_fier.py
+
+# Vistas intermedias reproducibles; se conserva el HTML comparativo
+parte2_bilbao/bilbao_coordenadas.html
+parte2_bilbao/bilbao_kruskal_mapa.html
+parte2_bilbao/bilbao_kruskal_mst.html
+parte2_bilbao/lib/
+
+# Descarga alternativa, distinta del dataset del caso de estudio
+bilbao_calles.graphml
